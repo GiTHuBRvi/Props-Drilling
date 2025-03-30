@@ -7,7 +7,7 @@ const App = () => {
   // Fetch mock data
   useEffect(() => {
 
-    fetch("https://run.mocky.io/v3/afb93328-08f5-4e1c-95a9-51959ee57982") // Fetch 5 posts
+    fetch("https://run.mocky.io/v3/a3f78663-e286-4e10-96a5-e104adc1e628") // Fetch 5 posts
       .then((response) => response.json())
       .then((data) => setData(data))
       console.log(data)

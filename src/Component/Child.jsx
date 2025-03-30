@@ -10,7 +10,7 @@ const Child = ({ posts }) => {
           }}>
           <p> Id : <strong>{post.id}</strong></p> 
            <p> Name : <strong>{post.name}</strong></p>
-          <p> Title : <strong>{post.title}</strong></p>
+          <p> Price : <strong>{post.price}</strong></p>
 
   
           </li>
